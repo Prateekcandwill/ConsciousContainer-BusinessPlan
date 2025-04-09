@@ -1,0 +1,532 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Conscious Container
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Inter', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-50">
+  <!-- Top Bar -->
+  <div class="bg-green-700 text-white text-sm py-2 px-4 flex justify-between items-center">
+   <div>
+    +91 XXXXX XXXXX | Free shipping above ₹999
+   </div>
+   <div>
+    Spring Sale! Use code ECO20 for 20% off on all products
+   </div>
+  </div>
+  <!-- Header -->
+  <header class="bg-green-600 text-white py-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="text-2xl font-bold">
+     ConsciousContainer
+    </div>
+    <div class="flex items-center space-x-4">
+     <input class="px-4 py-2 rounded-full text-black" placeholder="Search for eco-friendly products..." type="text"/>
+     <button class="bg-green-700 px-4 py-2 rounded-full">
+      Search
+     </button>
+    </div>
+    <div class="flex items-center space-x-4">
+     <a class="hover:underline" href="#">
+      Account
+     </a>
+     <a class="hover:underline" href="#">
+      Wishlist
+     </a>
+     <a class="hover:underline" href="#">
+      Track Order
+     </a>
+     <a class="hover:underline" href="#">
+      Contact Us
+     </a>
+     <a class="hover:underline" href="#">
+      <i class="fas fa-shopping-cart">
+      </i>
+      Cart
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- Main Banner -->
+  <div class="bg-green-100 py-12">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="max-w-lg">
+     <div class="text-sm text-green-700 mb-2">
+      India's #1 Sustainable Packaging Store
+     </div>
+     <h1 class="text-4xl font-bold text-green-900 mb-4">
+      Eco-Friendly Packaging At Wholesale Prices
+     </h1>
+     <p class="text-lg text-green-800 mb-6">
+      Shop our wide range of sustainable packaging solutions. Bulk discounts available for businesses and government agencies.
+     </p>
+     <div class="flex items-center space-x-2">
+      <input class="px-4 py-2 rounded-full text-black flex-grow" placeholder="Search for products, categories, and more..." type="text"/>
+      <button class="bg-green-700 px-4 py-2 rounded-full">
+       Search
+      </button>
+     </div>
+     <div class="flex space-x-4 mt-4 text-green-700">
+      <div class="flex items-center space-x-1">
+       <i class="fas fa-fire">
+       </i>
+       <span>
+        Trending Products
+       </span>
+      </div>
+      <div class="flex items-center space-x-1">
+       <i class="fas fa-shipping-fast">
+       </i>
+       <span>
+        Fast Delivery
+       </span>
+      </div>
+      <div class="flex items-center space-x-1">
+       <i class="fas fa-check-circle">
+       </i>
+       <span>
+        Quality Guarantee
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="bg-yellow-100 p-8 rounded-lg text-center">
+     <div class="text-4xl font-bold text-green-700 mb-4">
+      50% SALE OFF
+     </div>
+     <p class="text-lg text-green-800 mb-4">
+      On bulk orders this week
+     </p>
+     <p class="text-green-700 mb-4">
+      Biodegradable Packaging Starting from ₹99
+     </p>
+     <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+      Shop Now
+     </button>
+    </div>
+   </div>
+  </div>
+  <!-- Categories -->
+  <div class="bg-white py-6">
+   <div class="container mx-auto flex justify-around">
+    <div class="text-center">
+     <i class="fas fa-shopping-bag text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      Bags
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-box text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      Packaging
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-utensils text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      Containers
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-utensil-spoon text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      Utensils
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-star text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      Specialty
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-th-large text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      All Products
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Products Section -->
+  <div class="container mx-auto py-12">
+   <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-bold text-green-900">
+     Eco-Friendly Products
+    </h2>
+    <div class="flex items-center space-x-4">
+     <div class="flex items-center space-x-2">
+      <span>
+       Filter:
+      </span>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       All
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Bags
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Packaging
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Food Containers
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Utensils
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Gift Packaging
+      </button>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Specialty
+      </button>
+     </div>
+     <div class="flex items-center space-x-2">
+      <span>
+       Sort:
+      </span>
+      <button class="bg-green-100 text-green-700 px-4 py-2 rounded-full">
+       Featured
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">
+       10% OFF
+      </span>
+      <span class="absolute top-2 right-2 bg-green-700 text-white text-xs px-2 py-1 rounded">
+       Bestseller
+      </span>
+      <img alt="Biodegradable Plastic Bags" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/CJFmSH4bbHjVZ_8B39f23ONGyucA1LInfq347QFY-YM.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Bags
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Biodegradable Plastic Bags
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹135
+       <span class="line-through">
+        ₹150
+       </span>
+      </div>
+      <div class="text-sm text-gray-500">
+       Eco-friendly alternative to traditional plastic bags that decompose naturally.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.5 (128)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Repeat similar product cards for other products -->
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">
+       5% OFF
+      </span>
+      <img alt="Recyclable Paperboard Packaging" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/CETEs28Qd7K72q-eBc5vYNsaMQjpB1nLmQ6gQrxpj5s.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Packaging
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Recyclable Paperboard Packaging
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹570
+       <span class="line-through">
+        ₹600
+       </span>
+      </div>
+      <div class="text-sm text-gray-500">
+       Sustainable paperboard solutions for product packaging with minimal environmental impact.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.2 (96)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">
+       15% OFF
+      </span>
+      <span class="absolute top-2 right-2 bg-green-700 text-white text-xs px-2 py-1 rounded">
+       Bestseller
+      </span>
+      <img alt="Compostable Food Containers" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/t-jZtduS3gqth3-PARRlOalPd4EmTWWqybw2kegfqAI.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Food Containers
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Compostable Food Containers
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹153
+       <span class="line-through">
+        ₹180
+       </span>
+      </div>
+      <div class="text-sm text-gray-500">
+       Plant-based food packaging that breaks down into compost after use.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.7 (203)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <img alt="Eco-Friendly Jute Bags" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/jTqGnJiEDM7_TICd2pbD3yz9drrwZNx-jX4PzOosxMY.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Bags
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Eco-Friendly Jute Bags
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹250
+      </div>
+      <div class="text-sm text-gray-500">
+       Durable, reusable jute bags for shopping and product packaging.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.3 (167)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">
+       12% OFF
+      </span>
+      <img alt="Bamboo Cutlery Set" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/BgQMZ_JGbyDVpnbauC_jfe7fzuiSy2AgtyywLdHFRXY.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Utensils
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Bamboo Cutlery Set
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹308
+       <span class="line-through">
+        ₹350
+       </span>
+      </div>
+      <div class="text-sm text-gray-500">
+       Reusable bamboo cutlery set to replace single-use plastic utensils.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.5 (82)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <img alt="Recycled Paper Gift Boxes" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/6d0NIwgGNvkZoiAd0LQSrzwuHuLgh7M88JonD9jvFvw.jpg" width="300"/>
+      <div class="absolute inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center text-white text-lg font-bold">
+       Out of Stock
+      </div>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Gift Packaging
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Recycled Paper Gift Boxes
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹120
+      </div>
+      <div class="text-sm text-gray-500">
+       Elegant gift boxes made from 100% recycled paper materials.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.1 (74)
+       </div>
+       <button class="bg-gray-400 text-white px-4 py-2 rounded-full cursor-not-allowed" disabled="">
+        Sold Out
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded">
+       8% OFF
+      </span>
+      <img alt="Plant-based Plastic Alternatives" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/OqBQqJJckpQWv_woV3Y1evK9_KkrHAaAXMcdGxJvKEQ.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Packaging
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Plant-based Plastic Alternatives
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹202
+       <span class="line-through">
+        ₹220
+       </span>
+      </div>
+      <div class="text-sm text-gray-500">
+       Innovative plant-based alternatives to conventional plastics.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.6 (112)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="relative">
+      <span class="absolute top-2 right-2 bg-green-700 text-white text-xs px-2 py-1 rounded">
+       Bestseller
+      </span>
+      <img alt="Seeded Paper Packaging" class="w-full h-40 object-cover rounded" height="200" src="https://storage.googleapis.com/a1aa/image/BMkOUsyh-Okk2MykVcxk_FtQeH79sTxNYHBzhwcOi6w.jpg" width="300"/>
+     </div>
+     <div class="mt-4">
+      <div class="text-sm text-gray-500">
+       Specialty
+      </div>
+      <div class="text-lg font-bold text-green-900">
+       Seeded Paper Packaging
+      </div>
+      <div class="text-sm text-gray-500">
+       ₹180
+      </div>
+      <div class="text-sm text-gray-500">
+       Innovative packaging paper embedded with seeds that grow when planted.
+      </div>
+      <div class="flex items-center justify-between mt-4">
+       <div class="text-yellow-500">
+        <i class="fas fa-star">
+        </i>
+        4.9 (56)
+       </div>
+       <button class="bg-green-700 text-white px-4 py-2 rounded-full">
+        Add to Cart
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Information Section -->
+  <div class="bg-yellow-100 py-12">
+   <div class="container mx-auto flex justify-around">
+    <div class="text-center">
+     <i class="fas fa-building text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      For Government Agencies
+     </div>
+     <div class="text-sm text-gray-700">
+      Special bulk pricing and procurement assistance available for government institutions.
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-briefcase text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      For Businesses
+     </div>
+     <div class="text-sm text-gray-700">
+      Custom branding, volume discounts, and streamlined reordering for business clients.
+     </div>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-user text-2xl text-green-700 mb-2">
+     </i>
+     <div>
+      For Individuals
+     </div>
+     <div class="text-sm text-gray-700">
+      Eco-friendly packaging for everyday use with free shipping options on eligible orders.
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
