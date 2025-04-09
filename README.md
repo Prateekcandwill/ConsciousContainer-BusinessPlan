@@ -2,6 +2,12 @@
 
 Welcome to the GitHub repository for **Conscious Container**, a business plan developed for a sustainable packaging manufacturing and supply venture targeting the Presidency Division of West Bengal, India. This project aims to address the growing demand for eco-friendly packaging alternatives while fostering environmental responsibility and economic growth in the region.
 
+## Live Demo of Website (Still under Construction)
+
+- [Main Website](https://prateekcandwill.github.io/ConsciousContainer-BusinessPlan/)
+- [Sales Page](https://prateekcandwill.github.io/ConsciousContainer-BusinessPlan/sales.html)
+
+
 ## Project Overview
 
 - **Company Name:** Conscious Container
